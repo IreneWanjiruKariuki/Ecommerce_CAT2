@@ -16,6 +16,6 @@ class Order(models.Model):
         on_delete=models.CASCADE,
         related_name='orders'
     )# Foreign key to the customer model. Defines a one to many relationship(a customer can place multiple orders)
-  quantity_ordered = models.IntegerField()
+  quantity_ordered = models.IntegerField()#the number of goods ordered by the customer
   order_date = models.DateTimeField(auto_now_add=True)# automatically set date and time of when the order is placed
   total_amount = models.DecimalField(max_digits=10, decimal_places=2)# Total monetary value of the order
