@@ -83,6 +83,6 @@ Access the application at `http://127.0.0.1:8000/`.
 
 ```bash
 git add .
-git commit -m "Initial commit"
+git commit -m "First commit"
 git push
 ```
