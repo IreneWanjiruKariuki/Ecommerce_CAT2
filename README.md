@@ -32,13 +32,13 @@ cd Ecommerce_CAT2
 Create a virtual environment to isolate project dependencies:
 
 ```bash
-python -m venv venv
+py -m venv venv
 ```
 Activate the virtual environment:
 
 - On Windows:
   ```bash
-  .\venv\Scripts\activate
+  .\venv\Scripts\Activate.ps1
   ```
 
 ### 4. Run Database Migrations
