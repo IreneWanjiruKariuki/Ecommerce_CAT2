@@ -9,7 +9,6 @@ Ensure you have the following installed on your system:
 - Python (3.12.6)
 - pip 
 - Django
-- Virtual environment
 
 ## Setting Up the Environment
 
@@ -36,7 +35,6 @@ py -m venv venv
 ```
 Activate the virtual environment:
 
-- On Windows:
   ```bash
   .\venv\Scripts\Activate.ps1
   ```
